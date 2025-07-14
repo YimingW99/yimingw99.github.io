@@ -1,12 +1,56 @@
-# React + Vite
+Yiming Wang Personal Website
+This is a minimal personal website project built with React, Vite, TailwindCSS, and deployed via GitHub Pages.
+The website includes pages for Home, Projects, Blog, and Contact.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+React 18
 
-Currently, two official plugins are available:
+Vite 7
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS 3
 
-## Expanding the ESLint configuration
+React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GitHub Pages
+
+📂 Project Structure
+bash
+复制
+编辑
+src/
+├── assets/         # Static images, icons, etc.
+├── components/     # Reusable UI components
+├── pages/          # Home, Projects, Blog, Contact
+├── App.jsx         # App entry with router
+├── main.jsx        # React root entry
+├── index.css       # Tailwind global CSS
+📦 Available Commands
+Command	Description
+npm run dev	Start local dev server (http://localhost:5173)
+npm run build	Build production assets into /dist
+npm run deploy	Deploy dist/ to GitHub Pages
+
+🚀 Deployment Steps
+Install dependencies:
+
+bash
+复制
+编辑
+npm install
+Build for production:
+
+bash
+复制
+编辑
+npm run build
+Deploy to GitHub Pages:
+
+bash
+复制
+编辑
+npm run deploy
+Your site will be live at:
+https://yimingw99.github.io
+
+📝 License
+MIT License.
