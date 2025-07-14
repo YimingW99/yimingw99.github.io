@@ -1,56 +1,50 @@
-Yiming Wang Personal Website
-This is a minimal personal website project built with React, Vite, TailwindCSS, and deployed via GitHub Pages.
-The website includes pages for Home, Projects, Blog, and Contact.
+# Yiming Wang Personal Website
 
-🚀 Tech Stack
-React 18
+This is a minimal personal website built with **React**, **Vite**, **Tailwind CSS**, and deployed to **GitHub Pages**.  
+It includes pages for **Home**, **Projects**, **Blog**, and **Contact**.
 
-Vite 7
+Live Site: [https://yimingw99.github.io](https://yimingw99.github.io)
 
-Tailwind CSS 3
+## 🚀 Tech Stack
+- React 18
+- Vite 7
+- Tailwind CSS 3
+- React Router DOM
+- GitHub Pages
 
-React Router DOM
+## 📂 Project Structure
 
-GitHub Pages
+src/  
+├── assets/         # Static images, icons, etc.  
+├── components/     # Reusable UI components (Header, Footer, Cards, Forms)  
+├── pages/          # Home, Projects, Blog, Contact pages  
+├── App.jsx         # App layout and router setup  
+├── main.jsx        # React root entry  
+├── index.css       # Tailwind CSS global styles  
 
-📂 Project Structure
-bash
-复制
-编辑
-src/
-├── assets/         # Static images, icons, etc.
-├── components/     # Reusable UI components
-├── pages/          # Home, Projects, Blog, Contact
-├── App.jsx         # App entry with router
-├── main.jsx        # React root entry
-├── index.css       # Tailwind global CSS
-📦 Available Commands
-Command	Description
-npm run dev	Start local dev server (http://localhost:5173)
-npm run build	Build production assets into /dist
-npm run deploy	Deploy dist/ to GitHub Pages
+public/  
+├── resume.pdf      # Static resume file  
+├── favicon.ico     # Favicon  
 
-🚀 Deployment Steps
-Install dependencies:
+## 📦 Available Commands
 
-bash
-复制
-编辑
+npm run dev — Start local dev server (http://localhost:5173)  
+npm run build — Build production assets into /dist  
+npm run deploy — Deploy /dist to GitHub Pages  
+
+## 🚀 Deployment Guide
+
+1️⃣ Install dependencies:
 npm install
-Build for production:
 
-bash
-复制
-编辑
+2️⃣ Build for production:
 npm run build
-Deploy to GitHub Pages:
 
-bash
-复制
-编辑
+3️⃣ Deploy to GitHub Pages:
 npm run deploy
-Your site will be live at:
-https://yimingw99.github.io
 
-📝 License
+
+Once deployed, visit: [https://yimingw99.github.io](https://yimingw99.github.io)
+
+## 📝 License
 MIT License.
